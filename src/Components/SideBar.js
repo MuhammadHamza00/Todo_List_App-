@@ -24,8 +24,8 @@ export default function SideBar() {
         <h1 className='sidebtnmenu'style={themeValue === 'dark' ? myStyle : {}}onClick={hideSidebar}><i className="bi bi-list"></i></h1>
        <div className="account"style={themeValue === 'dark' ? myStyle : {}}>
         <img src={moduleName} alt="" className='profile'/>
-        <h4>Muhammad Hamza</h4>
-        <p>mhamza191703@gmail.com</p>
+        <h4>Now or Never</h4>
+        <p>Your Personalized Todo List</p>
       </div>
       <hr />
       <div className="Items">
